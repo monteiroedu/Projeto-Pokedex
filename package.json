@@ -2,10 +2,10 @@
   "name": "projeto-pokedex",
   "version": "1.0.0",
   "description": "",
-  "main": "Index.js",
+  "main": "index.js",
    "scripts": {
    "dev": "nodemon -e js,html,css,ejs",
-   "start": "node Index.js"
+   "start": "node index.js"
   },
   "repository": {
     "type": "git",
