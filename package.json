@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
-  "scripts": {
+   "scripts": {
    "start": "node index.js"
   },
   "engines": {
     "node": "14.x"
   },
+  "type": "module",
   "author": "Eduardo Monteiro",
   "license": "ISC",
   "dependencies": {
