@@ -18,8 +18,7 @@ Foram usadas nesse projeto as seguintes ferramentas:
 <img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/>
 </a>
 
-<a href= "monteiroeduardo@outlook.com" target="_blanck">
-<img src="https://img.icons8.com/ios/50/000000/send-mass-email.png"/>
-</a>
+E-mail: monteiroeduardo@outlook.com
+
 
 
