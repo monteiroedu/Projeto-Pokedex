@@ -14,8 +14,6 @@ app.use(express.json())
 app.set("view engine", "ejs")
 app.use(express.static(path.join(__dirname, "public")))
 
-const PORT=process.env.PORT || 3003;
-
 app.listen(PORT, ()=>console.log(`Server function in http://localhost:${PORT} `));
 
 let pokemon = [{
@@ -124,3 +122,5 @@ app.post('/cadastro', (req, res) => {
     pokemon.push({id: novaId, nome, tipo, imagem, descrição, altura, peso, categoria, habilidade})
     res.redirect('/')
 })
+
+const PORT=process.env.PORT || 3003;
