@@ -15,9 +15,8 @@ app.set("view engine", "ejs")
 app.use(express.static(path.join(__dirname, "public")))
 
 const PORT=process.env.PORT || 3003;
-app.listen(PORT, () => {
-    console.log(`Rodando na porta ${PORT}`)
-})
+
+app.listen(PORT, ()=>console.log(`Server function in http://localhost:${PORT} `));
 
 let pokemon = [{
         id: 1,
