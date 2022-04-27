@@ -14,9 +14,9 @@ app.use(express.json())
 app.set("view engine", "ejs")
 app.use(express.static(path.join(__dirname, "public")))
 
-const port = 3003
-app.listen(port, () => {
-    console.log(`Rodando na porta ${port}`)
+const PORT=process.env.PORT || 3003;
+app.listen(PORT, () => {
+    console.log(`Rodando na porta ${PORT}`)
 })
 
 let pokemon = [{
