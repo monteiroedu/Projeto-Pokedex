@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    <%- include('./partials/header.ejs') %> 
+    <main>
+        <form method="post" action="/cadastro">
+            <fieldset id="field_main">
+            <legend> Cadastre seu Pokemon </legend>
+            <fieldset>
+                <input type="text" name="nome">
+                <label for="nome">Nome</label>
+            </fieldset>
+            
+            <fieldset>
+                <input type="text" name="tipo">
+                <label for="tipo">Tipo</label>
+            </fieldset>
+
+            <fieldset>
+                <input type="url" name="imagem">
+                <label for="imagem">Imagem</label>
+            </fieldset>
+
+            <fieldset>
+                <input type="text" name="descrição">
+                <label for="descrição">Descrição</label>
+            </fieldset>
+
+            <fieldset>
+                <input type="number" name="altura">
+                <label for="altura">Altura</label>
+            </fieldset>
+
+            <fieldset>
+                <input type="number" name="peso">
+                <label for="peso">Peso</label>
+            </fieldset>
+
+            <fieldset>
+                <input type="text" name="categoria">
+                <label for="categoria">Categoria</label>
+            </fieldset>
+
+            <fieldset>
+                <input type="text" name="habilidade">
+                <label for="habilidade">Habilidade</label>
+            </fieldset>
+         <button type="submit"> Enviar </button>
+        </fieldset>
+        </form>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>

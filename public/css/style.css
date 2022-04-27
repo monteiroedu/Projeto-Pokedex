@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #45BCDE;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 10px;
+    align-items: center;
+    align-items: center;
+    height: 20%;
+    background-color: #FF0000;
+}
+
+header img#logo {
+height: 100%;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    gap: 40px;
+}
+
+header a {
+color: whitesmoke;
+text-decoration: none;
+}
+
+header a:hover {
+color: yellow
+}
+
+main{
+    min-height: 80%;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    gap: 15px;
+    height: 100%;
+    width: 300px;
+}
+
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+form fieldset fildset {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+    border: none;
+}
+
+form fieldset#field_main{
+    border: 1px solid black;
+}
+
+form legend{
+    background-color: #FF0000;
+    color: white;
+}
+section#detalhes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 350px;
+    text-align: center;
+}
+table th {
+    border: 1px solid black
+}
+
+table tr {
+    background-color: red;
+    color: yellow;
+}
+section#pokemons {
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+justify-content: center;
+padding-top: 20px;
+}
+
+article.card{
+height: 350px;
+width: 300px;
+border: 1px solid black;
+}
+
+article.card div.card_image {
+height: 80%;
+background-color: rgb(253, 253, 253);
+}
+
+article.card img{
+height: 100%;
+}
+
+article.card div.nomeDoPokemon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    height: 10%;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+     text-align: center;
+    background-color: red   ;
+    color: yellow; 
+}

@@ -1,0 +1,29 @@
+Tempo: 1h2'
+RODAR: npm run dev
+
+##################################################################
+
+Requisitos para o projeto
+
+https://blueedtech.gitbook.io/modulo-2/2a-semana/aula-07-codelab-projeto-calculadora-de-danos-parte-1
+
+###################################################################
+
+Links para projeto 02:
+Pokedex: https://www.pokemon.com/br/pokedex/
+
+###################################################################
+
+Link dos Pokemons:
+
+Pikachu: https://www.pokemon.com/br/pokedex/pikachu
+
+Charmander: https://www.pokemon.com/br/pokedex/charmander
+
+Nidoqueen: https://www.pokemon.com/br/pokedex/nidoqueen
+
+Bulbasaur: https://www.pokemon.com/br/pokedex/bulbasaur
+
+Pidgeot: https://www.pokemon.com/br/pokedex/pidgeot
+
+Ninetales: https://www.pokemon.com/br/pokedex/ninetales
