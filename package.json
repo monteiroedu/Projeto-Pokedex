@@ -7,12 +7,19 @@
    "dev": "nodemon -e js,html,css,ejs",
    "start": "node Index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monteiroedu/Projeto-Pokedex.git"
+  },
   "engines": {
      "node": "v16.14.2", "npm": "8.5.0" 
    },
   "type": "module",
   "author": "Eduardo Monteiro",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monteiroedu/Projeto-Pokedex.git/issues"
+  },
   "dependencies": {
     "dotenv": "^16.0.0",
     "ejs": "^3.1.7",
