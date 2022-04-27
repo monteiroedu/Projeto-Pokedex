@@ -1,5 +1,5 @@
 import express from "express"
-import path from 'path'
+import path, { dirname } from "path"
 import dotenv from 'dotenv'
 
 dotenv.config()
@@ -13,8 +13,11 @@ app.use(express.json())
 
 app.set("view engine", "ejs")
 app.use(express.static(path.join(__dirname, "public")))
+const port=process.env.PORT || 3000;
 
-app.listen(PORT, ()=>console.log(`Server function in http://localhost:${PORT} `));
+app.listen(port,() => {
+    
+});
 
 let pokemon = [{
         id: 1,
@@ -123,4 +126,3 @@ app.post('/cadastro', (req, res) => {
     res.redirect('/')
 })
 
-const PORT=process.env.PORT || 3003;
