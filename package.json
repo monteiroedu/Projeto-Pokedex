@@ -4,6 +4,7 @@
   "description": "",
   "main": "Index.js",
    "scripts": {
+   "dev": "nodemon -e js,html,css,ejs",
    "start": "node Index.js"
   },
   "engines": {
