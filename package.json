@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-   "scripts": {
-   "dev": "nodemon -e js,html,css,ejs",
-   "start": "node index.js"
+  "scripts": {
+    "dev": "nodemon -e js,html,css,ejs",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/monteiroedu/Projeto-Pokedex.git"
   },
   "engines": {
-     "node": "v16.14.2", "npm": "8.5.0" 
-   },
+    "node": "v16.14.2",
+    "npm": "8.5.0"
+  },
   "type": "module",
   "author": "Eduardo Monteiro",
   "license": "ISC",
